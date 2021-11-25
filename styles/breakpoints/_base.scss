@@ -307,10 +307,10 @@ footer {
 }
 // 動画を全画面表示
 
-#video {
-  width: 100%;
-  height: 100vh;
-}
+// #video {
+//   width: 100%;
+//   height: 100vh;
+// }
 /*
 「position: fixed;」で動画を固定し、「top: -220px;」で表示位置を調整
 z-indexでマイナスを設定して、他のコンテンツの下に隠れるようにする

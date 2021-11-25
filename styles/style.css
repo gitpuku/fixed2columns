@@ -665,11 +665,6 @@ footer p {
   margin: 0;
 }
 
-#video {
-  width: 100%;
-  height: 100vh;
-}
-
 /*
 「position: fixed;」で動画を固定し、「top: -220px;」で表示位置を調整
 z-indexでマイナスを設定して、他のコンテンツの下に隠れるようにする
@@ -796,6 +791,16 @@ Stylesheet: 960px以上のモニタで適用
   }
   #nav img {
     display: block;
+  }
+  #video {
+    height: 100vh;
+    /* 80vh → 100vh */
+  }
+  .bg-video {
+    /* heightは見た目の崩れにつながるため、今回は指定しない。 */
+    top: -220px;
+    left: 300px;
+    /* right, marginは見た目に影響を与えていなさそうなため、今回は必要なさそうです。 */
   }
 }
 
