@@ -74,12 +74,11 @@ Stylesheet: 960px以上のモニタで適用
 }
 
 #video {
-  height: 100vh;   /* 80vh → 100vh */
+  .bg-video{
+    height: 100vh;   /* 80vh → 100vh */
+    top: -220px;
+    left: 300px;
+  }
 }
 
-.bg-video {
-  /* heightは見た目の崩れにつながるため、今回は指定しない。 */
-  top: -220px;
-  left: 300px;
-  /* right, marginは見た目に影響を与えていなさそうなため、今回は必要なさそうです。 */
-}
+
