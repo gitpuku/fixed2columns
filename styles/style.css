@@ -635,7 +635,7 @@ a:hover {
 }
 
 #contact .contact__inner a:hover {
-  border: 3px solid;
+  outline: 5px solid black;
 }
 
 footer {

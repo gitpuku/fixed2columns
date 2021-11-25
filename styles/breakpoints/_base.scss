@@ -279,7 +279,8 @@ a {
           bottom: 4px;
         }
         &:hover {
-          border: 3px solid;
+          // border: 3px solid;
+          outline: 5px solid black;
         }
       }
     }
